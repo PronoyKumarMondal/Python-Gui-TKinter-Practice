@@ -13,7 +13,7 @@ my_label.pack()#packing /endling
 my_label2.pack()
 def myclick():
     my_label=Label(root,text='Welcome to DeadHead,',fg='red').pack()#fg - foreground,bg-bagroung
-mybutton=Button(root,text='Hey click this',command=myclick,fg='white',bg='black')#clicking button
+mybutton=Button(root,text='Hey click this',command=myclick,fg='white',bg='black',padx=30,pady=30)#clicking button
 mybutton.pack()
 
 
